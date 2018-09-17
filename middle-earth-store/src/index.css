@@ -2,38 +2,50 @@ body {
     background-color: rgb(193, 255, 198);
     padding: 20px;
     margin: 0;
-  }
-  h1, h2, p, ul, li {
+}
+.navBar-brand {
+    float: left;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    color: #FFF;
+}
+
+.shoppingList-product img {
+    width: 200px;
+}
+
+h1, h2, p, ul, li {
     font-family: sans-serif;
-  }
-  ul.header li {
+}
+ul.header li {
     display: inline;
     list-style-type: none;
     margin: 0;
-  }
-  ul.header {
+}
+ul.header {
     background-color: #111;
     padding: 0;
-  }
-  ul.header li a {
+}
+ul.header li a {
     color: #FFF;
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-  }
-  .content {
+}
+.content {
     background-color: #FFF;
     padding: 20px;
-  }
-  .content h2 {
+}
+.content h2 {
     padding: 0;
     margin: 0;
-  }
-  .content li {
+}
+.content li {
     margin-bottom: 10px;
-  }
-
-  .active {
+}
+.active {
     background-color: #0099FF;
-  }
+}
