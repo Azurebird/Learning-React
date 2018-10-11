@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import {Route, NavLink, HashRouter} from "react-router-dom"
-import Index from "./com/mh/index/Index"
-import Products from "./com/mh/product/ShoppingStore"
-import Cart from "./com/mh/cart/Cart"
-import Contact from "./com/mh/contact/Contact"
+import Index from "./component/Index"
+import Products from "./component/ShoppingStore"
+import Cart from "./component/Cart"
+import Contact from "./component/Contact"
 import "./index.css"
  
 class Main extends Component {
